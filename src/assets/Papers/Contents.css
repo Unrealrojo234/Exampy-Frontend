@@ -1,0 +1,24 @@
+.past-papers{
+    background-image: url('../images/second.jpeg');
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+.subjects .link{
+    text-decoration: none;
+    color:black;
+    font-size: large;
+    letter-spacing: 0.15cap;    
+}
+
+
+.subjects .link:hover{
+    color: lime;
+    font-size: larger;
+    transition-delay: 0.5s;
+    transition: all;
+}
