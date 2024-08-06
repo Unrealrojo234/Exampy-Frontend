@@ -8,7 +8,6 @@ class Images extends React.Component{
     render(){
         return(
             <div>
-                <br />
                 <img className="img-fluid rounded" src={grad} alt="image1" />
             </div>
         );

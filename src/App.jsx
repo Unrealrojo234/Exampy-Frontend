@@ -9,7 +9,9 @@ export default function App (){
             <Header/>
             <Search/>
             <Images/>
-            <Footer/>
+            <div className="fixed-bottom start-1">
+                <Footer/>
+            </div>
         </div>
     )
 }

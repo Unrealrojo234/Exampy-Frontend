@@ -17,8 +17,24 @@
 
 
 .subjects .link:hover{
-    color: lime;
+    color: royalblue;
     font-size: larger;
     transition-delay: 0.5s;
     transition: all;
+}
+
+.subject-container{
+    background-color: aqua;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    z-index: 1000;
+    border: 0.1cap solid black;
+    margin-top: 3%;
+}
+
+.subject-container:hover{
+    padding:8px ;
+    transition:linear ;
+    transition-duration: .2s;
 }

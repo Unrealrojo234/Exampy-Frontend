@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import Contents from './assets/Papers/Contents.jsx'
-import Books from './assets/Books/Books.jsx'
+import Mock from './assets/Mocks/Mock.jsx'
 import English from './assets/Papers/Subjects/English.jsx'
 import Mathematics from './assets/Papers/Subjects/Mathematics.jsx'
 import Kiswahili from './assets/Papers/Subjects/Kiswahili.jsx'
@@ -31,8 +31,8 @@ const router = createBrowserRouter([
     element: <Contents/>,
   },
   {
-    path: "books",
-    element: <Books/>,
+    path: "mocks",
+    element: <Mock/>,
   },
   {
     path: "english",
